@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Boton} from './components/Boton';
+import {BotonOutline} from './components/BotonOutline';
+import BotonText from './components/BotonText';
+import BotonDisableShadow from './components/BotonDisableShadow';
+import BotonDisabled from './components/BotonDisabled';
+import BotonIcon from './components/BotonIcon';
+import BotonSize from './components/BotonSize';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Boton/>
+    <BotonOutline/>
+    <BotonText/>
+    <BotonDisableShadow/>
+    <BotonDisabled/>
+    <BotonIcon/>
+    <BotonSize/>
   </React.StrictMode>,
   document.getElementById('root')
 );
